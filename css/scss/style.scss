@@ -97,6 +97,13 @@ $accent: #FBD784;
             transform: translate(-90px, 0%) rotate(90deg);
             align-items: center;
             display: flex;
+            margin-top: -50px;
+        .main_sotiat-img{
+            display: flex;
+            .instagram_img{
+                margin-right: 30px;
+            }
+        }
         .main_text{
             text-decoration: none;
             padding: 5px;
@@ -106,14 +113,7 @@ $accent: #FBD784;
             font-weight: bold;
             font-size: 18px;
             line-height: 22px;
-        }
-            .main_sotiat-img{
-                display: flex;
-                .instagram_img{
-                    margin-right: 30px;
-                }
-            }
-            
+        }     
         }
         .main_iner{
             margin-left: -50px;
@@ -151,6 +151,7 @@ $accent: #FBD784;
         }
         .main_menu{
             align-items: center;
+            margin-top: -50px;
             .main_menu-inner{
                 .main_menu-item{
                 font-family: 'Roboto', sans-serif;
@@ -286,7 +287,7 @@ $accent: #FBD784;
                 }
             }
             .aside_hed{
-                width: 455px;
+                width: 450px;
                 color: $weib;
                 font-weight: 600;
                 font-size: 64px;
@@ -294,7 +295,7 @@ $accent: #FBD784;
                 padding: 27px 0;
             }
             .aside_text{
-                width: 452px;
+                width: 450px;
                 padding:0 27px 27px 0;
                 font-weight: bold;
                 font-size: 18px;
@@ -344,7 +345,7 @@ $accent: #FBD784;
                 }
             }
             .body_hed{
-                width: 455px;
+                max-width: 455px;
                 color: $weib;
                 font-weight: 600;
                 font-size: 64px;
@@ -352,7 +353,7 @@ $accent: #FBD784;
                 padding: 27px 0;
             }
             .body_text{
-                width: 552px;
+                max-width: 502px;
                 padding:0 27px 27px 0;
                 font-weight: bold;
                 font-size: 18px;
